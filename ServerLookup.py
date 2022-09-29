@@ -49,7 +49,6 @@ def request():
     r_data = response.json()
 
     if  response.ok:
-        software = r_data['software']
         version = r_data['version']
         online = r_data['online']
         ip = r_data['ip']
@@ -57,7 +56,7 @@ def request():
         print(f"{lblack}[{lblue}On{white}line{lblack}]{white}  : {online}")
         print(f"{lblack}[{lblue}I{white}P{lblack}]{white}      : {ip}:{port}")
         print(f"{lblack}[{lblue}MO{white}TD{lblack}]{white}    : {motd}{white}")
-        print(f"{lblack}[{lblue}Ver{white}sion{lblack}]{white} : {software}:{version}")
+        print(f"{lblack}[{lblue}Ver{white}sion{lblack}]{white} : {version}")
         print(f"{lblack}[{lblue}Play{white}ers{lblack}]{white} : {response_srv.players.online}/{response_srv.players.max}")
         input("Press enter to exit")
     else:
