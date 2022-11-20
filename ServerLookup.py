@@ -1,7 +1,7 @@
 # ========================================================================
-#                   ServerLookup v1.0 github.com/v3rifier
-#                            Made by v3rifier
-#                               @v3rifier
+#                   ServerLookup v1.0 github.com/AdvancedBan
+#                            Made by AdvancedBan
+#                              @0xAdvancedBan
 # ========================================================================
 
 
